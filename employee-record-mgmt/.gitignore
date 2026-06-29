@@ -1,0 +1,21 @@
+# SAP ABAP Project - Git Ignore
+
+# SAP Transport files (binary, not needed in source control)
+*.tsk
+*.cofiles
+*.data
+
+# IDE / editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temp / log files
+*.log
+*.tmp
